@@ -1,0 +1,10 @@
+<h2>Sedes</h2>
+<div class="container" *ngFor="let city of ciudad; let i = index">
+    <div class="card">
+    <h3>{{ciudad[i]}}</h3>
+     <img src="../../assets/img/sedes/{{imagen[i]}}" alt="{{imagen[i]}}" class="imagen"> 
+   <h2>{{nombreEstadio[i]}}</h2>
+    <div class="capacidad">Capacidad: {{capacidad[i]}}</div>
+</div>
+
+</div>

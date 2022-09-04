@@ -1,0 +1,28 @@
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+.own-card{
+    margin-top: 30px;
+    width: 90vw;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.flag{
+    height: 40px;
+    width: 60px;
+}
+
+th{
+    border-bottom: 1px  solid #ccc;
+}
+td, th{
+    padding: 5px;
+    border-left: 1px  solid #ccc;
+    font-size: 20px;
+}

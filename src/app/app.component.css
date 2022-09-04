@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+   
+}
+
+.aside{
+    background-color: brown;
+    height: 100%;
+    width: 15vw;
+    min-width: 250px;
+}

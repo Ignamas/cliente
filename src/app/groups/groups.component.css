@@ -1,0 +1,65 @@
+.flex {
+    
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+/* background: linear-gradient(rgb(64, 204, 247),  rgb(97, 12, 255)); */
+/* background: linear-gradient(#FDD972, #FAB419); */
+background-image: url('../../assets/img/banderas/Catar.svg');
+background-size: 100%;
+}
+
+.group{
+    text-align: center;
+    width: 180px;
+    height: 250px;
+    background-color: #640030;
+    margin: 5px;
+    color: aliceblue;
+    border: 1px solid #000000;
+   /*  border-radius: 60%; */
+   border-radius: 6px;
+}
+
+ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+h4{
+    color: white;
+    font-size: 22px;
+}
+h4:hover{
+    background-color: rgb(214, 117, 99);
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+    
+.flag{
+    height: 15px;
+    width: 25px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+li{
+  
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 5px 0;
+    padding-left: 5px;
+   
+}
+
+li:hover{
+    background-color: #ccc;
+}

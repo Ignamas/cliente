@@ -1,0 +1,16 @@
+<form aria-autocomplete="off" [formGroup]="miFormulario">
+  <input class="form-control" formControlName="nombre" placeholder="Nombre del Estadio" />
+  <span class="form-text text-danger">Este campo es obligatiorio</span>
+
+  <input class="form-control" formControlName="capacidad" placeholder="Capacidad del estadio" />
+  <span class="form-text text-danger">Este campo es obligatiorio</span>
+
+  <input class="form-control" formControlName="ciudad" placeholder="Ciudad" />
+  <span class="form-text text-danger">Este campo es obligatiorio</span>
+  <button class="btn btn-success" [disabled]="miFormulario.invalid">Guardar</button>
+</form>
+
+<pre>Tocado: {{ miFormulario.touched }}</pre>
+<pre>Pristine: {{ miFormulario.pristine }}</pre>
+<pre>Valido: {{ miFormulario.valid }}</pre>
+<pre>Valor: {{ miFormulario.value | json }}</pre>

@@ -1,0 +1,23 @@
+h1{
+    text-decoration: underline;
+}
+.contenedor{
+    padding: 40px;
+
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.timer{
+    color:rgb(3, 145, 3);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
